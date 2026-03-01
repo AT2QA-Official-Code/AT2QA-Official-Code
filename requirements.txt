@@ -1,0 +1,5 @@
+numpy>=1.24
+openai>=1.0.0
+zhipuai>=2.1.5
+matplotlib>=3.7
+

@@ -1,0 +1,11 @@
+{
+  "model": "GLM-Embedding-3",
+  "total_lines": 461329,
+  "dim": 256,
+  "batch_size": 64,
+  "per_file_counts": {
+    "full.txt": 461329
+  },
+  "embeddings_path": "embedding-3.f32.npy",
+  "metadata_path": "embedding-3.meta.jsonl"
+}
