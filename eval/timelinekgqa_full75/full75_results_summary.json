@@ -1,0 +1,28 @@
+{
+  "cron": {
+    "dataset": "cron",
+    "metric": "exact_match_case_insensitive",
+    "hits": 6295,
+    "total": 8344,
+    "score": 0.7544343240651965,
+    "trace_file": "full_sampled_trajectories/timelinekgqa_full75/cron_full75_complete_traces.json",
+    "code": [
+      "eval/timelinekgqa_full75/eval_grep_agent.py",
+      "eval/timelinekgqa_full75/eval_vector_agent_cron_noleak.py",
+      "eval/timelinekgqa_full75/prompts/grep_eval_prompt_v17_chat_v13plus_daysdict_whononhuman.json"
+    ]
+  },
+  "icews": {
+    "dataset": "icews_actor",
+    "metric": "exact_match_case_insensitive",
+    "hits": 11024,
+    "total": 14621,
+    "score": 0.7539839956227344,
+    "trace_file": "full_sampled_trajectories/timelinekgqa_full75/icews_full75_complete_traces.json",
+    "code": [
+      "eval/timelinekgqa_full75/eval_grep_agent.py",
+      "eval/timelinekgqa_full75/eval_vector_agent_icews.py",
+      "eval/timelinekgqa_full75/prompts/grep_eval_prompt_or_union_hint_time_fewshot.json"
+    ]
+  }
+}
